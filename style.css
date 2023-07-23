@@ -1,0 +1,76 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar{
+  display: grid;
+  align-content: flex-start;
+  gap: 50px;
+}
+
+.main{
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: auto auto 3fr;
+    column-gap: 20px;
+    justify-items: center;
+}
+
+.button{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: left;
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.photo2{
+  grid-row: span 2;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.project{
+  grid-row: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto repeat(auto-fit, minmax(200px, 80%));
+  gap: 50px;
+}
+
+.project-title{
+  grid-column: span 2;
+  grid-row: 1;
+  margin-bottom: -50px;
+}
+
+.project-item{
+  margin: 15px;
+}
