@@ -4,54 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <main class="container">
+  <main class="main-container">
     <div class="sidebar">
       <div class="logo">
         Dashboard
       </div>
       <div class="tab">
         <div class="tab-item">
-          <img src="./image/home.svg" width="20pw" height="20pw" alt="">&emsp; Home
+          <img src="./image/home.svg" width="40pw" height="40pw" alt="">&emsp; Home
         </div>
         <div class="tab-item">
-          <img src="./image/card-account-details-outline.svg" width="20pw" height="20pw" alt="">&emsp; Profile
+          <img src="./image/card-account-details-outline.svg" width="40pw" height="40pw" alt="">&emsp; Profile
         </div>
         <div class="tab-item">
-          <img src="./image/message-reply.svg" width="20pw" height="20pw" alt="">&emsp; Messages
+          <img src="./image/message-reply.svg" width="40pw" height="40pw" alt="">&emsp; Messages
         </div>
         <div class="tab-item">
-          <img src="./image/clock-time-three.svg" width="20pw" height="20pw" alt="">&emsp; History
+          <img src="./image/clock-time-three.svg" width="40pw" height="40pw" alt="">&emsp; History
         </div>
         <div class="tab-item">
-          <img src="./image/note-multiple.svg" width="20pw" height="20pw" alt="">&emsp; Tasks
+          <img src="./image/note-multiple.svg" width="40pw" height="40pw" alt="">&emsp; Tasks
         </div>
         <div class="tab-item">
-          <img src="./image/account-group.svg" width="20pw" height="20pw" alt="">&emsp; Communities
+          <img src="./image/account-group.svg" width="40pw" height="40pw" alt="">&emsp; Communities
         </div>
       </div>
       <div class="tool">
         <div class="tool-item">
-          <img src="./image/cog.svg" width="20pw" height="20pw" alt="">&emsp; Settings
+          <img src="./image/cog.svg" width="40pw" height="40pw" alt="">&emsp; Settings
         </div>
         <div class="tool-item">
-          <img src="./image/help-box.svg" width="20pw" height="20pw" alt="">&emsp; Support
+          <img src="./image/help-box.svg" width="40pw" height="40pw" alt="">&emsp; Support
         </div>
         <div class="tool-item">
-          <img src="./image/shield-check.svg" width="20pw" height="20pw" alt="">&emsp; Privacy
+          <img src="./image/shield-check.svg" width="40pw" height="40pw" alt="">&emsp; Privacy
         </div>
       </div>
     </div>
     <div class="main">
       <div class="header">
         <div class="search">
-          <img src="./image/magnify.svg" width="20pw" height="20pw" alt=""><input type="text">
+          <img src="./image/magnify.svg" width="30pw" height="30pw" alt=""><input type="text">
         </div>
         <div class="profile">
           <button class="bell">
-            <img src="./image/bell-ring-outline.svg" width="20pw" height="20pw" alt="">
+            <img src="./image/bell-ring-outline.svg" width="30pw" height="30pw" alt="">
           </button>
           <div class="photo1">Pic</div>
           <div class="name">Prachponleu Uch</div>
@@ -62,103 +63,117 @@
           <div class="username">Morgan Oakley (@morgan)</div>
         </div>
         <div class="button">
-          <button class="share">Share</button>
-          <button class="new">New</button>
-          <button class="upload">Upload</button>
+          <button class="share btn">Share</button>
+          <button class="new btn">New</button>
+          <button class="upload btn">Upload</button>
         </div>
       </div>
       <div class="body">
         <div class="project">
           <h3 class="project-title">Your Projects</h3>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+          <div class="project-items">
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
-          </div>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
-          </div>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
-          </div>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
-          </div>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
-          </div>
-          <div class="project-item">
-            <div class="pj-item-title">Lorem Ipsum</div>
-            <div class="pj-item-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+            <div class="project-item">
+              <div class="pj-item-title">Lorem Ipsum</div>
+              <div class="pj-item-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim lacus, tristique rutrum mattis a, malesuada eget metus. Nunc aliquet, massa eget porttitor ultricies, risus tellus ultrices diam, sed lobortis sapien ligula id ligula. Integer auctor tincidunt eros a finibus. Nam condimentum libero vitae justo mattis, ultrices facilisis eros semper. Donec pulvinar molestie augue a pellentesque.
+              </div>
+              <div class="pj-item-btns">
+                <button class="pj-item-btn">
+                  <img src="./image/star-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/eye-plus-outline.svg" width="30pw" height="30pw" alt="">
+                </button>
+                <button class="pj-item-btn">
+                  <img src="./image/vector-polyline.svg" width="30pw" height="30pw" alt="">
+                </button>
+              </div>
             </div>
-            <button class="pj-item-btn">
-              <img src="./image/star-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/eye-plus-outline.svg" width="20pw" height="20pw" alt="">
-            </button>
-            <button class="pj-item-btn">
-              <img src="./image/vector-polyline.svg" width="20pw" height="20pw" alt="">
-            </button>
           </div>
         </div>
         <div class="announcement">

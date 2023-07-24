@@ -1,12 +1,31 @@
-.container{
+body{
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.main-container{
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 
 .sidebar{
+  padding-top: 2vw;
   display: grid;
   align-content: flex-start;
-  gap: 50px;
+  row-gap: 50px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.tab{
+  display: grid;
+  row-gap: 10px;
+}
+
+.tool{
+  display: grid;
+  row-gap: 10px;
 }
 
 .main{
@@ -15,11 +34,16 @@
 }
 
 .header{
+  padding-top: 1vw;
   display: grid;
   grid-template-columns: 3fr 1fr;
   column-gap: 50px;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  background-color: white;
+  grid-template-rows: repeat(2, minmax(80px, 80%));
+
 }
 
 .search{
@@ -29,17 +53,25 @@
   align-content: flex-start;
 }
 
+.search input{
+  border: 0;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
 .profile{
     display: grid;
     grid-template-columns: auto auto 3fr;
     column-gap: 20px;
     justify-items: center;
+    align-items: center;
 }
 
 .button{
   display: grid;
   grid-template-columns: auto auto auto;
   justify-items: left;
+  align-content: center;
 }
 
 .intro{
@@ -49,28 +81,44 @@
 
 .photo2{
   grid-row: span 2;
+  align-self: center;
+  justify-self: center;
 }
 
 .body{
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 .project{
   grid-row: span 2;
   display: grid;
+}
+
+.project-items{
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto repeat(auto-fit, minmax(200px, 80%));
   gap: 50px;
-}
-
-.project-title{
-  grid-column: span 2;
-  grid-row: 1;
-  margin-bottom: -50px;
+  margin: 15px;
 }
 
 .project-item{
-  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pj-item-btns{
+  float: right;
+}
+
+.announcement{
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.sidebar, .btn{
+  background-color: lightskyblue;
+  color: white;
 }
