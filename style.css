@@ -88,11 +88,9 @@ body{
 .body{
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: auto 1fr;
 }
 
 .project{
-  grid-row: span 2;
   display: grid;
 }
 
@@ -113,12 +111,50 @@ body{
   float: right;
 }
 
-.announcement{
+.body-sidebar{
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: repeat(2, 450px);
 }
 
 .sidebar, .btn{
   background-color: lightskyblue;
   color: white;
+}
+
+.announcement-item{
+  display: grid;
+  grid-template-rows: auto 80px;
+}
+
+hr{
+  background-color: black;
+  height: 1px;
+}
+
+.announcement, .trending{
+  display: grid;
+  grid-template-rows: 42px 400px;
+}
+
+.trending-item{
+  display: grid;
+  grid-template-rows: auto 50px;
+}
+
+.announcement-items, .trending-items{
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.am-itm-body, .tr-itm-body{
+  overflow:hidden;
+}
+
+.announcement-item, .trending-item{
+  font-size: x-small;
+}
+
+.tab img, .tool img{
+  filter: brightness(0) invert(1);
 }
