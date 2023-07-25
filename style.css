@@ -126,6 +126,11 @@ body{
   grid-template-rows: auto 80px;
 }
 
+.trending-item{
+  display: grid;
+  grid-template-rows: auto 50px;
+}
+
 hr{
   background-color: black;
   height: 1px;
@@ -134,11 +139,6 @@ hr{
 .announcement, .trending{
   display: grid;
   grid-template-rows: 42px 400px;
-}
-
-.trending-item{
-  display: grid;
-  grid-template-rows: auto 50px;
 }
 
 .announcement-items, .trending-items{
